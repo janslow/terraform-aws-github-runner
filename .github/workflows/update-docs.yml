@@ -5,6 +5,7 @@ on:
       - "**/*.tf"
       - "**/*.md"
       - ".github/workflows/update-docs.yml"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
